@@ -1,0 +1,32 @@
+#VineJS
+
+An animated vine that grows according to the parameters that you set.
+
+                numOfSeeds: 2,
+                vineflex: .9 #unused
+                branchflex: .1, #unused
+                branchChance: 1, #percentage chance of branch growing
+                branchLength: 50, #length of branch
+                branchTimeMax: 1200, #Max time taken to draw branch
+                branchTimeMin: 500, #Min time taken to draw branch
+                stemLength: 200, # length of vine before branch might occur
+                top: 100, #pos
+                left: 10, #pos
+                height: window.innerHeight -100, #pos
+                width: window.innerWidth - 100, #pos
+                time: 100,
+                startCorner: "BR", #['BR' | 'BL' | 'TR' | 'TL']
+                direction: "CCW", # ['CW' | 'CCW']
+                girth: 8, #girth of vine
+                numOfSides: 2, #num of sides of vine - 4 makes a box 
+                numCurvesPerSide: 3,
+                curveDepth: 40,
+                bark: 1, #width of bark
+                barkColor: "#000000",
+                color: "#655412", #colour of vine
+                autoStart: true, #or use garden.germinate() later
+                when: 0, #timeout before vine starts
+                autoPause: false, #unusued
+                container: null, #set to element using jquery syntax, or leave null to inject an element
+                zindex: null, #unused
+                position: "fixed" #unused.  to be sent to animation.injectedCanvas at some point
