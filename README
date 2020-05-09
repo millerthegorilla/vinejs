@@ -1,5 +1,7 @@
 #VineJS
 
+Example at https://millerthegorilla.github.io/vinejs/index.html
+
 An animated vine that grows according to the parameters that you set.
 
                 numOfSeeds: 2,
